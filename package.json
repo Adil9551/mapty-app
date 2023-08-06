@@ -1,0 +1,44 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "A small project that keeps track of user cycling and running activities on the map ",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adil9551/mapty-app.git"
+  },
+  "keywords": [
+    "sport",
+    "activities",
+    "map"
+  ],
+  "author": "Adil Kydyrbayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adil9551/mapty-app/issues"
+  },
+  "homepage": "https://github.com/Adil9551/mapty-app#readme",
+  "dependencies": {
+    "core-js": "^3.32.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-react": "^7.22.5",
+    "parcel": "^1.12.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  }
+}
