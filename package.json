@@ -2,7 +2,6 @@
   "name": "mapty",
   "version": "1.0.0",
   "description": "A small project that keeps track of user cycling and running activities on the map ",
-  "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -30,7 +29,8 @@
     "@babel/core": "^7.22.9",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/preset-react": "^7.22.5",
-    "parcel": "^1.12.3"
+    "parcel": "^2.0.0",
+    "process": "^0.11.10"
   },
   "babel": {
     "presets": [
